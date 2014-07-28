@@ -29,6 +29,8 @@ this is  little jQuery plugin that will add a loading bar in your page
     });
 &lt;/script&gt;
 
+
+</pre>
+
 即,将平常中使用的$.get改为$.loadingBar_get，$.post改为$.loadingBar_post即可，
 其他传参均按照jquery中使用get或者post方法一致
-</pre>
