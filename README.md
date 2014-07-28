@@ -3,7 +3,7 @@ jquery-loading-bar
 
 this is  little jQuery plugin that will add a loading bar in your page
 
-这是一个简单的jquery插件，用于在使用jquery的get，post方式时，会在页面顶部添加一个进度条(loading-bar)
+这是一个简单的jquery插件，用于在使用jquery的get，post方式时，会在页面顶部添加一个进度条(loading-bar)。
 
 ###使用
 1、在页面header里面添加如下三个文件：
@@ -33,4 +33,4 @@ this is  little jQuery plugin that will add a loading bar in your page
 </pre>
 
 即,将平常中使用的$.get改为$.loadingBar_get，$.post改为$.loadingBar_post即可，
-其他传参均按照jquery中使用get或者post方法一致
+其他传参均按照jquery中使用get或者post方法一致。
