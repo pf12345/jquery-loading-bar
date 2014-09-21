@@ -10,15 +10,21 @@
 <div>
     <a href="text.txt" id="text">text</a>
     <a href="text.txt" id="text1">text1</a>
+    <div id="content">
+
+    </div>
+    <div id="content1">
+
+    </div>
 </div>
 <script>
     $(document).ready(function () {
-        $.loadingBar_get('text.txt', {}, function (data) {
-            console.log(data)
+        $.get('text.txt', {}, function (data) {
+            $("#content").html (data + "<br/>"+"--------------------------"+"<br/>");
         });
 
-        $.loadingBar_post('jquery-1.7.2.min.js', {}, function (data) {
-            console.log(data)
+        $.post('../jquery-1.7.2.min.js', {}, function (data) {
+            $("#content1").html (data + "<br/>"+"--------------------------"+"<br/>");
         });
     });
 </script>
